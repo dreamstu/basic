@@ -1,0 +1,29 @@
+{
+  "family": "btrjslibs",
+  "name": "base",
+  "version": "1.0.0",
+  "description": "The base lib on btrjslibs.",
+  "homepage": "git://github.com/dreamstu/BtrJsLibs/base",
+  "author": "Jian Chen",
+  "maintainers": [
+    "Jian Chen"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dreamstu/BtrJsLibs.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "base.js",
+      "base.css"
+    ],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}
