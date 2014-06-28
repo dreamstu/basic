@@ -2,7 +2,7 @@
 
 ---
 
-A nice CMD module.
+A nice Base module.
 
 ---
 
@@ -10,17 +10,13 @@ A nice CMD module.
 
 It is very easy to use this module.
 
-````html
-<div class="btrjslibs-base">
-</div>
-````
-
 ```javascript
 seajs.use('base', function(base) {
-
+	//write your some code...
+	like base.baseUrl();...
 });
 ```
 
 ## Api
 
-Here is some details.
+具体函数及注意事项请参阅演示页面
