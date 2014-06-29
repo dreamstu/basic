@@ -1,10 +1,10 @@
-define("btrjslibs-base/1.0.0/index-debug", ["btrjslibs-base/1.0.0/src/base-debug", "jquery", "btrjslibs-base/1.0.0/src/json-debug", "btrjslibs-base/1.0.0/src/ua-debug"], function(require, exports, module) {
+define("btrjslibs-base/1.0.0/index-debug", ["btrjslibs-base/1.0.0/src/base-debug", "jquery/1.7.2/jquery-debug", "btrjslibs-base/1.0.0/src/json-debug", "btrjslibs-base/1.0.0/src/ua-debug"], function(require, exports, module) {
   define(function(require, exports, module) {
     module.exports = require("btrjslibs-base/1.0.0/src/base-debug");
   });
 });
-define("btrjslibs-base/1.0.0/src/base-debug", ["jquery", "btrjslibs-base/1.0.0/src/json-debug", "btrjslibs-base/1.0.0/src/ua-debug"], function(require, exports, module) {
-  var $ = require("jquery");
+define("btrjslibs-base/1.0.0/src/base-debug", ["jquery/1.7.2/jquery-debug", "btrjslibs-base/1.0.0/src/json-debug", "btrjslibs-base/1.0.0/src/ua-debug"], function(require, exports, module) {
+  var $ = require("jquery/1.7.2/jquery-debug");
   var JSON = require("btrjslibs-base/1.0.0/src/json-debug");
   var base = {};
   var _baseUrl = "http://localhost:8000/";
@@ -214,12 +214,12 @@ define("btrjslibs-base/1.0.0/src/base-debug", ["jquery", "btrjslibs-base/1.0.0/s
   });
   module.exports = base;
 });
-define("btrjslibs-base/1.0.0/src/json-debug", ["jquery", "btrjslibs-base/1.0.0/src/ua-debug"], function(require, exports, module) {
+define("btrjslibs-base/1.0.0/src/json-debug", ["jquery/1.7.2/jquery-debug", "btrjslibs-base/1.0.0/src/ua-debug"], function(require, exports, module) {
   /**
    * @fileOverview 由于jQuery只有 parseJSON ，没有stringify所以使用过程不方便
    * @ignore
    */
-  var $ = require("jquery");
+  var $ = require("jquery/1.7.2/jquery-debug");
   var win = window,
     UA = require("btrjslibs-base/1.0.0/src/ua-debug"),
     JSON = win.JSON;
@@ -422,13 +422,13 @@ define("btrjslibs-base/1.0.0/src/json-debug", ["jquery", "btrjslibs-base/1.0.0/s
   }
   return JSON;
 });
-define("btrjslibs-base/1.0.0/src/ua-debug", ["jquery"], function(require, exports, module) {
+define("btrjslibs-base/1.0.0/src/ua-debug", ["jquery/1.7.2/jquery-debug"], function(require, exports, module) {
   /**
    * @fileOverview UA,jQuery的 $.browser 对象非常难使用
    * @ignore
    * @author dxq613@gmail.com
    */
-  var $ = require("jquery");
+  var $ = require("jquery/1.7.2/jquery-debug");
 
   function numberify(s) {
     var c = 0;

@@ -1,19 +1,18 @@
-
-  var base = require('../src/base');
   var expect = require('expect.js');//断言
+  var base = require('../index');
+ 
 
   describe('base', function() {
     it('base is existed', function() {
         expect(base).to.be.ok();
         expect(base.baseUrl).to.be.ok();
-        expect(base.isNull).to.be.ok();
+        expect(base.isNull.to.be.ok();
         expect(base.formatParams).to.be.ok();
-        expect(base.main).to.not.be.ok();
     });
 
  	it('should return not empty string', function() {
     	//断言值是否为 真
-        expect(base.baseUrl()!=null && base.baseUrl()!='' || ).to.be.ok();
+        expect(base.baseUrl()!=null && base.baseUrl()!="").to.be.ok();
     });
 
     it('should return true when the value is null or "" ', function() {
@@ -29,4 +28,3 @@
         expect(base.isNull(0)).to.not.be.ok();
     });
   });
-
