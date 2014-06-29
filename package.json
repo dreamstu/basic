@@ -1,6 +1,5 @@
 {
-  "family": "btrjslibs",
-  "name": "base",
+  "name": "btrjslibs-base",
   "version": "1.0.0",
   "description": "The base lib on btrjslibs.",
   "homepage": "https://github.com/dreamstu/BtrJsLibs/wiki",
@@ -18,18 +17,15 @@
   "keywords": ["base"],
   "licenses": "MIT",
   "spm": {
-    "output": [
-      "base.js",
-      "base.css"
-    ],
-    "alias": {
-      "$":"$"
+    "main": "index.js",
+    "dependencies": {
+      "jquery": "1.7.2"
     },
-    "devAlias": {
-      "$":"$"
+    "devDependencies": {
+      "expect.js": "0.3.1"
     },
     "engines": {
-      
+      "seajs": "2.2.1"
     }
   }
 }

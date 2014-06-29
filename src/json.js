@@ -2,8 +2,7 @@
  * @fileOverview 由于jQuery只有 parseJSON ，没有stringify所以使用过程不方便
  * @ignore
  */
-define(function (require, exports, module) {
-  var $ = require("$");
+  var $ = require("jquery");
   var win = window,
     UA = require('./ua'),
     JSON = win.JSON;
@@ -276,4 +275,3 @@ define(function (require, exports, module) {
   }
 
   return JSON;
-});

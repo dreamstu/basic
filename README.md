@@ -11,7 +11,7 @@ A nice Base module.
 It is very easy to use this module.
 
 ```javascript
-seajs.use('base', function(base) {
+seajs.use('index', function(base) {
 	//write your some code...
 	like base.baseUrl();...
 });

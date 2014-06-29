@@ -1,10 +1,10 @@
-define(function(require, exports, module) {
-	var $ = require("$");
+
+	var $ = require("jquery");
 	var JSON = require("./json");
 
   	var base = {};
 
-	var _baseUrl = "http://localhost:8080/mail/";
+	var _baseUrl = "http://localhost:8000/";
 
 	base.baseUrl = function(){
 		return _baseUrl;
@@ -230,4 +230,3 @@ define(function(require, exports, module) {
 	});
 
   module.exports = base;
-});

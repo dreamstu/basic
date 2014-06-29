@@ -1,7 +1,6 @@
-define(function(require) {
 
   var base = require('../src/base');
-  var expect = require('expect');//断言
+  var expect = require('expect.js');//断言
 
   describe('base', function() {
     it('base is existed', function() {
@@ -30,5 +29,3 @@ define(function(require) {
         expect(base.isNull(0)).to.not.be.ok();
     });
   });
-
-});

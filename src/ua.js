@@ -3,9 +3,8 @@
  * @ignore
  * @author dxq613@gmail.com
  */
-define(function (require, exports, module) {
     
-    var $ = require("$");
+    var $ = require("jquery");
 
     function numberify(s) {
         var c = 0;
@@ -64,4 +63,3 @@ define(function (require, exports, module) {
     })();
 
     return UA;
-});
