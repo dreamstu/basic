@@ -6,10 +6,17 @@ Base 是一个基础类，提供一些常用功能,包括但不限于Json、ua�
 ## 使用说明
 
 ### baseUrl `object.baseUrl()`
+<<<<<<< HEAD
 在需要获取当前应用访问路径时，使用 `object.baseUrl()` 函数，该函数返回一个*String*。
 
 ````javascript
 seajs.use(['jquery','index'], function($,base) {
+=======
+在需要获取当前应用访问路径时，使用 `object.baseUrl()` 函数。
+
+````javascript
+seajs.use(['$','base'], function($,base) {
+>>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876
 	$("#baseUrl").html(base.baseUrl());
 });
 ````
@@ -19,11 +26,19 @@ seajs.use(['jquery','index'], function($,base) {
 <span id="baseUrl"></span>
 ````
 
+<<<<<<< HEAD
 ### isNull `object.isNull(obj)`	*Object*
 在需要判断某一对象是否为空（指的是为空字符串或者null）时，使用 `object.isNull(obj)` 函数，该函数返回一个*Boolean*。
 
 ````javascript
 seajs.use(['jquery','index'], function($,base) {
+=======
+### isNull `object.isNull()`
+在需要判断某一对象是否为空（指的是为空字符串或者null）时，使用 `object.isNull(obj)` 函数。
+
+````javascript
+seajs.use(['$','base'], function($,base) {
+>>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876
 	$("#isNullBtn").on('click',function(){
 		var obj = prompt("请输入点什么吧！","null");
 		$("#isNull").html(base.isNull(obj)+"");
@@ -39,6 +54,7 @@ seajs.use(['jquery','index'], function($,base) {
 </span>
 ````
 
+<<<<<<< HEAD
 ### formatParams `object.formatParams(heads,params)`	*Array*,*Array*。
 在需要序列化提交参数(自动将参数中的空字符串转换成null，
 并且将提交参数转化成json对象)时，
@@ -46,6 +62,15 @@ seajs.use(['jquery','index'], function($,base) {
 
 ````javascript
 seajs.use(['jquery','index'], function($,base) {
+=======
+### formatParams `object.formatParams(heads,params)`
+在需要序列化提交参数(自动将参数中的空字符串转换成null，
+并且将提交参数转化成json对象)时，
+使用 `object.formatParams(heads,params)` 函数。
+
+````javascript
+seajs.use(['$','base'], function($,base) {
+>>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876
 	$("#formatParamsBtn").on('click',function(){
 		var heads = new Array("id","name","sex","age","IDcard");
 		var datas = new Array(1,"小白","男",null,"");
@@ -64,6 +89,7 @@ seajs.use(['jquery','index'], function($,base) {
 </span>
 ````
 
+<<<<<<< HEAD
 
 ### trimStr `object.trimStr(obj)`	*Object*
 在需要去掉字符串左右两边的空格时，使用 `object.trimStr(obj)` 函数，该函数返回一个*String*。
@@ -287,3 +313,6 @@ seajs.use(['jquery','index'], function($,base) {
 执行后结果：
 	<span id="getUrlParam"></span>
 ````
+=======
+`heads`及`params` 参数类型都为*Array*。
+>>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876

@@ -3,8 +3,14 @@
  * @ignore
  * @author dxq613@gmail.com
  */
+<<<<<<< HEAD
     
     var $ = require("jquery");
+=======
+define(function (require, exports, module) {
+    
+    var $ = require("$");
+>>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876
 
     function numberify(s) {
         var c = 0;
@@ -62,4 +68,9 @@
         return ua;
     })();
 
+<<<<<<< HEAD
     return UA;
+=======
+    return UA;
+});
+>>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876

@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 
   var base = require('../src/base');
   var expect = require('expect.js');//断言
+=======
+define(function(require) {
+
+  var base = require('../src/base');
+  var expect = require('expect');//断言
+>>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876
 
   describe('base', function() {
     it('base is existed', function() {
@@ -29,3 +36,8 @@
         expect(base.isNull(0)).to.not.be.ok();
     });
   });
+<<<<<<< HEAD
+=======
+
+});
+>>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876
