@@ -2,6 +2,8 @@
 
 ---
 
+[![Build Status](https://travis-ci.org/dreamstu/base.svg?branch=master)](https://travis-ci.org/dreamstu/base)
+
 A nice Base module.
 
 
