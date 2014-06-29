@@ -2,12 +2,7 @@
  * @fileOverview 由于jQuery只有 parseJSON ，没有stringify所以使用过程不方便
  * @ignore
  */
-<<<<<<< HEAD
   var $ = require("jquery");
-=======
-define(function (require, exports, module) {
-  var $ = require("$");
->>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876
   var win = window,
     UA = require('./ua'),
     JSON = win.JSON;
@@ -279,9 +274,4 @@ define(function (require, exports, module) {
     toJsonString : JSON.stringify
   }
 
-<<<<<<< HEAD
   return JSON;
-=======
-  return JSON;
-});
->>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876

@@ -1,19 +1,9 @@
-<<<<<<< HEAD
-
 	var $ = require("jquery");
-=======
-define(function(require, exports, module) {
-	var $ = require("$");
->>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876
 	var JSON = require("./json");
 
   	var base = {};
 
-<<<<<<< HEAD
 	var _baseUrl = "http://localhost:8000/";
-=======
-	var _baseUrl = "http://localhost:8080/mail/";
->>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876
 
 	base.baseUrl = function(){
 		return _baseUrl;
@@ -47,7 +37,7 @@ define(function(require, exports, module) {
 		jsonObj.data=params;
 		return JSON.toJsonString(jsonObj);
 	};
-<<<<<<< HEAD
+
 	/**
 	 * 去掉字符串左右两边的空格
 	 * 
@@ -240,9 +230,3 @@ define(function(require, exports, module) {
 	});
 
   module.exports = base;
-=======
-
-  module.exports = base;
-
-});
->>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876

@@ -1,27 +1,18 @@
 {
-<<<<<<< HEAD
   "name": "btrjslibs-base",
   "version": "1.0.0",
   "description": "The base lib on btrjslibs.",
-  "homepage": "https://github.com/dreamstu/BtrJsLibs/wiki",
-=======
-  "family": "btrjslibs",
-  "name": "base",
-  "version": "1.0.0",
-  "description": "The base lib on btrjslibs.",
-  "homepage": "git://github.com/dreamstu/BtrJsLibs/base",
->>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876
+  "homepage": "https://github.com/dreamstu/base/wiki",
   "author": "Jian Chen",
   "maintainers": [
     "Jian Chen"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/dreamstu/BtrJsLibs.git"
+    "url": "git://github.com/dreamstu/base.git"
   },
   "bugs": {
-<<<<<<< HEAD
-    "url": "https://github.com/dreamstu/BtrJsLibs/issues"
+    "url": "https://github.com/dreamstu/base/issues"
   },
   "keywords": ["base"],
   "licenses": "MIT",
@@ -36,19 +27,5 @@
     "engines": {
       "seajs": "2.2.1"
     }
-=======
-    "url": ""
-  },
-  "keywords": [],
-  "licenses": "MIT",
-  "spm": {
-    "output": [
-      "base.js",
-      "base.css"
-    ],
-    "alias": {},
-    "devAlias": {},
-    "engines": {}
->>>>>>> 7056194b2b65b139274225c4dad3d9c4a0b38876
   }
 }
