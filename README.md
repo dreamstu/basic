@@ -6,6 +6,7 @@ basic 是一个基础组件，提供一些常用功能,包括但不限于Json、
 
 [![Build Status](https://travis-ci.org/dreamstu/base.svg?branch=master)](https://travis-ci.org/dreamstu/basic)
 [![spm version](http://spmjs.io/badge/basic)](http://spmjs.io/package/basic)
+
 一套方便灵活的高可用的前端组合框架.
 
 
