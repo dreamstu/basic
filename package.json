@@ -1,25 +1,32 @@
 {
-  "name": "btrjslibs-base",
+  "name": "basic",
   "version": "1.0.0",
-  "description": "The base lib on btrjslibs.",
+  "description": "一套方便灵活的高可用的前端组合框架",
   "homepage": "https://github.com/dreamstu/base/wiki",
-  "author": "Jian Chen",
+  "author": "Seven",
+  "authorInfo":[{
+    "name":"Seven",
+    "email":"cjxsgn@163.com",
+    "qq":"2499039555"
+   }],
   "maintainers": [
-    "Jian Chen"
+    "Seven cjxsgn@163.com"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/dreamstu/base.git"
+    "url": "git://github.com/dreamstu/basic.git"
   },
   "bugs": {
-    "url": "https://github.com/dreamstu/base/issues"
+    "url": "https://github.com/dreamstu/basic/issues"
   },
-  "keywords": ["base"],
+  "keywords": ["base","basic"],
   "licenses": "MIT",
   "spm": {
     "main": "index.js",
     "dependencies": {
-      "jquery": "1.7.2"
+      "jquery": "1.7.2",
+      "jsons":"1.0.0",
+      "qs-console":"1.0.0"
     },
     "devDependencies": {
       "expect.js": "0.3.1"
